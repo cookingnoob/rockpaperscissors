@@ -7,6 +7,8 @@ console.log(randomValue + " computers choice")
 getComputerChoice()
 
 
-
-
-
+function playersChoice (){
+    let play = prompt("rock, paper or scissors?")
+    console.log(play + " players choice")
+}
+playersChoice()
